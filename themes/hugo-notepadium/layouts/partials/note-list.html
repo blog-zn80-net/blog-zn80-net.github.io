@@ -8,7 +8,9 @@
       {{- $relURL := replace .RelPermalink "#" "%23" -}}
       {{- $relURL = replace $relURL "." "%2e" -}}
     <li class="item"><a class="note" href="{{- $relURL -}}">
-            <p class="note title">{{- .Title | safeHTML -}}</p>
+            <p class="note title">
+			{{- if .Draft -}}<i style="color:red">(DRAFT)</i>&nbsp;{{- end -}} {{- .Title | safeHTML -}}
+			</p>
             {{- if .Date -}}
                 <p class="note date">{{- .Date.Format $dateFormat -}}</p>
             {{- end -}}
