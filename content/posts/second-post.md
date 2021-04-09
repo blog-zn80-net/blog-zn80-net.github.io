@@ -1,7 +1,7 @@
 ---
 title: "Second Post"
 date: 2021-04-09T17:02:58+02:00
-draft: true
+draft: false
 ---
 
 # Welcome to the second post of this website
