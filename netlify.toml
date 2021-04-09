@@ -1,14 +1,6 @@
-[context.production]
+[build]
+  command = "hugo -D -F"
   publish = "docs"
-  command = "hugo"
-  environment = {HUGO_VERSION = "0.82.0"}
 
-[context.deploy-preview]
-  command = "hugo --buildDrafts --buildFuture --cleanDestinationDir --destination docs-drafts"
-  publish = "docs-drafts"
-  environment = {HUGO_VERSION = "0.82.0"}
-  
-
-[context.branch-deploy]
-  command = "hugo --buildFuture"
-  environment = {HUGO_VERSION = "0.82.0"}
+[build.environment]
+  HUGO_VERSION = "0.81.0"
