@@ -4,7 +4,7 @@
   environment = {HUGO_VERSION = "0.82.0"}
 
 [context.deploy-preview]
-  command = "hugo --buildDrafts"
+  command = "hugo --buildDrafts --buildFuture --cleanDestinationDir --destination docs-drafts"
   publish = "docs-drafts"
   environment = {HUGO_VERSION = "0.82.0"}
   
