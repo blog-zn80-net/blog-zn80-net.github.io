@@ -1,6 +1,19 @@
 [build]
-  command = "hugo -D -F"
-  publish = "docs"
+  command = "hugo -destination build-output"
+  publish = "output-build/"
 
 [build.environment]
   HUGO_VERSION = "0.81.0"
+
+[context.production]
+  publish = "production/"
+  command = "hugo -destination production"
+  [context.production.environment]
+    HUGO_VERSION = "0.82.0"
+
+[context.deploy-preview]
+  command = "hugo --buildDrafts --buildFuture --cleanDestinationDir --destination deploy-preview"
+  publish = "deploy-preview/"
+  [context.deploy-preview.environment]
+    HUGO_VERSION = "0.82.0"
+  
