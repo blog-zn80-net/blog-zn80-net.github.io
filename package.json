@@ -5,7 +5,7 @@
 		}
 	},
 	"scripts": {
-		"build:not-main" : "hugo -D -F -d docs-draft",
-		"build:main" : "hugo -d docs --gc --minify"
+		"build:not-main" : "hugo -D -F",
+		"build:main" : "hugo --gc --minify"
 	}
 }
