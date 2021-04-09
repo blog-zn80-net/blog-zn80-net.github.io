@@ -1,5 +1,5 @@
 [build]
-  command = "hugo -destination build-output"
+  command = "hugo --destination build-output"
   publish = "output-build/"
 
 [build.environment]
@@ -7,7 +7,7 @@
 
 [context.production]
   publish = "production/"
-  command = "hugo -destination production"
+  command = "hugo --destination production"
   [context.production.environment]
     HUGO_VERSION = "0.82.0"
 
