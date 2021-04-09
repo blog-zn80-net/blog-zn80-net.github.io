@@ -1,12 +1,14 @@
-[context.production.environment]
-  HUGO_VERSION = "0.82.0"
+[context.production]
+  publish = "docs"
+  command = "hugo"
+  environment = {HUGO_VERSION = "0.82.0"}
 
 [context.deploy-preview]
-  command = "hugo --buildFuture"
-  [context.deploy-preview.environment]
-    HUGO_VERSION = "0.82.0"
+  command = "hugo --buildDrafts"
+  publish = "docs-drafts"
+  environment = {HUGO_VERSION = "0.82.0"}
+  
 
 [context.branch-deploy]
   command = "hugo --buildFuture"
-  [context.branch-deploy.environment]
-    HUGO_VERSION = "0.82.0"
+  environment = {HUGO_VERSION = "0.82.0"}
