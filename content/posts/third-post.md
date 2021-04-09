@@ -7,3 +7,4 @@ draft: true
 # THIS IS THE FUTURE!
 
 This post will be visible on the 10th.
+Netlify configuration added. Should do its job. Maybe?
