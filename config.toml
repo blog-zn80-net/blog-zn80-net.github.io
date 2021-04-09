@@ -1,0 +1,5 @@
+languageCode = "de-DE"
+title = "My New Hugo Site"
+theme = "hugo-notepadium"
+publishDir = "docs"
+baseURL = "https://blog-zn80-net.github.io"
