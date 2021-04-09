@@ -11,7 +11,7 @@
   [context.production.environment]
     HUGO_VERSION = "0.82.0"
 
-[context.deploy-preview]
+[context.branch-deploy]
   command = "hugo --buildDrafts --buildFuture --cleanDestinationDir --destination deploy-preview"
   publish = "deploy-preview/"
   [context.deploy-preview.environment]
