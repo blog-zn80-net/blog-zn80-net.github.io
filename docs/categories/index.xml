@@ -10,6 +10,30 @@
     
     
     <item>
+      <title>Future Post Feature</title>
+      <link>https://blog-zn80-net.github.io/posts/third-post/</link>
+      <pubDate>Fri, 09 Apr 2021 17:02:58 +0200</pubDate>
+      
+      <guid>https://blog-zn80-net.github.io/posts/third-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-the-future-published-now&#34;&gt;THIS IS THE FUTURE! PUBLISHED NOW!&lt;/h1&gt;
+&lt;p&gt;This post will be visible on the 10th.
+Netlify configuration added. Should do its job. Maybe?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>https://blog-zn80-net.github.io/posts/second-post/</link>
+      <pubDate>Fri, 09 Apr 2021 17:02:58 +0200</pubDate>
+      
+      <guid>https://blog-zn80-net.github.io/posts/second-post/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-the-second-post-of-this-website&#34;&gt;Welcome to the second post of this website&lt;/h1&gt;
+&lt;p&gt;This is a nice blog post about something I do not know.
+Is it possible to show ALL content on the main page?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>https://blog-zn80-net.github.io/posts/first-post/</link>
       <pubDate>Fri, 09 Apr 2021 15:55:27 +0200</pubDate>
