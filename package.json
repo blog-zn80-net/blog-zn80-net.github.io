@@ -3,5 +3,9 @@
 		"env": {
 			"HUGO_VESION": "0.82.0"
 		}
+	},
+	"scripts": {
+		"build:not-main" : "hugo -D -F -d docs-draft",
+		"build:main" : "hugo -d docs --gc --minify"
 	}
 }
